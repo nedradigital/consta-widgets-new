@@ -35,7 +35,7 @@
     "hooks": {
       "pre-commit": "lint-staged",
       "pre-push": "yarn checktypes",
-      "post-checkout": "node node_modules/@consta/widgets-configs/scripts/checkout-clean.js && yarn generate-css-types"
+      "post-checkout": "node node_modules/@consta/widgets-configs/scripts/checkout-clean.js"
     }
   },
   "lint-staged": {

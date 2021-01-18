@@ -113,6 +113,7 @@ declare module '@storybook/types' {
 
   export type StoryMetadata = {
     title: string
+    id: string
     decorators?: readonly DecoratorFn[]
     includeStories?: string[]
     excludeStories?: string[]
