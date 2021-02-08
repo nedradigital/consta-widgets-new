@@ -1,8 +1,12 @@
 build
+lib
+node_modules
 scripts
 types
 webpack
-lib
-node_modules
+.stylelintrc.js
+.eslintrc.js
+.prettierrc.js
+babel.config.js
 jest.config.js
-*.css.d.ts
+postcss.config.js

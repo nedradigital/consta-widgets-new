@@ -5,7 +5,6 @@ module.exports = {
       files: ['./src/**/*.stories.tsx'],
       rules: {
         'import/no-default-export': ['off'],
-        '@typescript-eslint/no-shadow': ['off'],
       },
     },
   ],

@@ -13,7 +13,7 @@ const renderComponent = (props: ComponentProps) => {
 }
 
 describe('Компонент Attach', () => {
-  it('должен рендериться без ошибок', () => {
+  it('render без ошибок', () => {
     expect(() => renderComponent({})).not.toThrow()
   })
 })
